@@ -1,0 +1,63 @@
+.syntaxhighlighter{background-color:#E7E5DC;border:1px solid #e7e5dc;margin:20px 0 20px;overflow:hidden;position:relative;width:882px;}
+.syntaxhighlighter .line{height:22px;clear:left;position:relative;}
+.syntaxhighlighter .line.highlighted .number{background-color:#ba1b1b;color:#000;}
+.syntaxhighlighter .line.highlighted.alt1 .content,.syntaxhighlighter .line.highlighted.alt2 .content{background-color:#ba1b1b;}
+.syntaxhighlighter .line .number{color:#5C5C5C;display:block;float:left;text-align:center;width:40px;left:0;top:0;position:absolute;}
+.syntaxhighlighter .line .content{border-left:3px solid #ba1b1b;position:absolute;color:#000;left:40px;display:block;overflow:hidden;white-space:nowrap;width:829px;padding:0 5px;}
+.syntaxhighlighter.printing .line .content{border:0;color:#000;}
+.syntaxhighlighter .line.alt1 .content{background-color:#fff;}
+.syntaxhighlighter .line.alt2 .content{background-color:#F8F8F8;}
+.syntaxhighlighter .line .content .block{display:block;}
+.syntaxhighlighter .ruler{background-color:#F8F8F8;border-left:3px solid #ba1b1b;color:silver;overflow:hidden;}
+.syntaxhighlighter.nogutter .ruler{border:0;margin-left:0;padding-left:0;}
+.syntaxhighlighter .toolbar{z-index:20;background-color:#F8F8F8;border:#E7E5DC solid 1px;font-size:1px;width:80px;height:35px;position:absolute;right:-1px;top:-1px;}
+.syntaxhighlighter .toolbar a{color:#a0a0a0;}
+.syntaxhighlighter .toolbar a:hover{color:#9DAF72;}
+.syntaxhighlighter .plain,.syntaxhighlighter .plain a{color:#000;}
+.syntaxhighlighter .comments,.syntaxhighlighter .comments a{color:#566047;}
+.syntaxhighlighter .string,.syntaxhighlighter .string a{color:#859731;}
+.syntaxhighlighter .keyword{color:#462D44;font-weight:bold;}
+.syntaxhighlighter .preprocessor{color:gray;}
+.syntaxhighlighter .variable{color:#a70;}
+.syntaxhighlighter .value{color:#859731;}
+.syntaxhighlighter .functions{color:#ff1493;}
+.syntaxhighlighter .constants{color:#06C;}
+.syntaxhighlighter .script{background-color:#FF0;}
+.syntaxhighlighter .color1,.syntaxhighlighter .color1 a{color:gray;}
+.syntaxhighlighter .color2,.syntaxhighlighter .color2 a{color:#ff1493;}
+.syntaxhighlighter .color3,.syntaxhighlighter .color3 a{color:#9DAF72;}
+.syntaxhighlighter,.syntaxhighlighter div,.syntaxhighlighter code,.syntaxhighlighter span{font-family:"Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;}
+.syntaxhighlighter .bold{font-weight:bold;}
+.syntaxhighlighter .italic{font-style:italic;}
+.syntaxhighlighter.nogutter .line .number{display:none;}
+.syntaxhighlighter .line .content .spaces{display:none;}
+.syntaxhighlighter.nogutter .line .content{border-left:none;margin-left:0;}
+.syntaxhighlighter.collapsed .lines,.syntaxhighlighter.collapsed .ruler{display:none;z-index:20;}
+.syntaxhighlighter.collapsed .toolbar{font-size:80%;position:static;}
+.syntaxhighlighter .toolbar a.item,.syntaxhighlighter .toolbar .item{background-repeat:no-repeat;display:block;float:left;margin-left:8px;_margin-left:5px;position:relative;top:8px;overflow:hidden;text-indent:-5000px;}
+.syntaxhighlighter.collapsed .toolbar .item{display:none;}
+.syntaxhighlighter.collapsed .toolbar .item.expandSource{background-image:url(magnifier.png);display:inline;float:none;height:16px;padding-left:20px;text-indent:0;width:auto;}
+.syntaxhighlighter .toolbar .item.viewSource{background-image:url(page_white_code.png);}
+.syntaxhighlighter .toolbar .item.printSource{background-image:url(printer.png);}
+.syntaxhighlighter .toolbar .item.copyToClipboard{background:none;overflow:visible;text-indent:0;}
+.syntaxhighlighter .toolbar .item.about{display:none;}
+.syntaxhighlighter.printing,.syntaxhighlighter.printing .line.alt1 .content,.syntaxhighlighter.printing .line.alt2 .content,.syntaxhighlighter.printing .line.highlighted .number,.syntaxhighlighter.printing .line.highlighted.alt1 .content,.syntaxhighlighter.printing .line.highlighted.alt2 .content,.syntaxhighlighter.printing .line .content .block{background:none;}
+.syntaxhighlighter.printing .line .number{color:#bbb;}
+.syntaxhighlighter.printing .toolbar,.syntaxhighlighter.printing .ruler{display:none;}
+.syntaxhighlighter.printing a{text-decoration:none;}
+.syntaxhighlighter.printing .plain,.syntaxhighlighter.printing .plain a{color:#000;}
+.syntaxhighlighter.printing .comments,.syntaxhighlighter.printing .comments a{color:#008200;}
+.syntaxhighlighter.printing .string,.syntaxhighlighter.printing .string a{color:blue;}
+.syntaxhighlighter.printing .keyword{color:#069;font-weight:bold;}
+.syntaxhighlighter.printing .preprocessor{color:gray;}
+.syntaxhighlighter.printing .variable{color:#a70;}
+.syntaxhighlighter.printing .value{color:#090;}
+.syntaxhighlighter.printing .functions{color:#ff1493;}
+.syntaxhighlighter.printing .constants{color:#06C;}
+.syntaxhighlighter.printing .script{font-weight:bold;}
+.syntaxhighlighter.printing .color1,.syntaxhighlighter.printing .color1 a{color:#ba1b1b;}
+.syntaxhighlighter.printing .color2,.syntaxhighlighter.printing .color2 a{color:#ff1493;}
+.syntaxhighlighter.printing .color3,.syntaxhighlighter.printing .color3 a{color:#ba1b1b;}
+/* Syntax Overrides - Need to go in shCore.css */
+.syntaxhighlighter {background:#fff;width:auto;margin:0 0 20px;font-size:11px;}
+.syntaxhighlighter, .syntaxhighlighter div, .syntaxhighlighter code, .syntaxhighlighter span{font-family:"Courier New", Courier, monospace;}
